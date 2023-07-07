@@ -1,0 +1,136 @@
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format(OpenType);
+    font-weight: normal;
+}
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#tituloprincipal{
+    padding: 18px;
+    text-align: center;
+}
+
+.subtitulo{
+    padding: 3px;
+    font-family: 'Android';
+    color: #297039;
+    background-image: linear-gradient(to right,#b8dac2, #c1dfc9,#dff3e4, white );
+}
+header#cabecalho{
+    padding: 8px 10px 0px 10px;
+    height: 150px;
+    margin: auto;
+    background-image: linear-gradient(to bottom,#41B55C, #2A753C, #13361B );
+    color: white;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+nav > a:hover{
+    background-color:#41B55C;
+    color: #2A753C;
+}
+h3{
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+}
+body{
+    background-color: #8bf8a6;
+}
+main{
+    min-width: 280px;
+    max-width: 900px;
+    padding: 10px;
+    margin: auto;
+    
+    background-color: white;
+    box-shadow: 1px 1px 8px black;
+}
+#video{
+    min-width: 280px;
+    max-width: 900px;
+    background-color: #2A753C;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+#video > iframe{
+    width: 56.25%;
+    padding-top: 0px;
+}
+
+
+.paragrafo{
+    text-indent: 3ch;
+    padding: 8px;
+}
+.imagem{
+    width: 100%;
+    text-align: center;
+}
+.android{
+    padding: 3px;
+    font-family: 'Android';
+    color: #297039;
+}
+#list1{
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+    
+}
+#list2{
+    display: inline-block;
+    list-style: none;
+    text-align: justify;
+
+}
+#historia{
+    text-decoration: none;
+    color: #39814b;
+}
+#historia:hover{
+    text-decoration: underline;
+}
+.extras{
+    padding: 10px;
+    background-color: white;
+    min-width: 280px;
+    max-width: 900px;
+
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 8px black;
+}
+
+footer{
+    margin-top: 15px;
+    background-color: #27863d;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+#aprender{
+    margin: 0px;
+    background-color: green;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+#final{
+    background-color: #b4ebdc;
+}
+#pergunta{
+    padding: 10px;
+}
